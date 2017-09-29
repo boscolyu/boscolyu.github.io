@@ -5,7 +5,7 @@ Author: bosco lyu
 Date:   September 27, 2017
 Meta: "IT"  
 ---
-<img src="/images/fulls/02.jpg" class="fit image">
+<img src="/images/fulls/01.jpg" class="fit image">
 ## site 
 * Go 사이트 : https://golang.org/#
 * Go 개발 환경 구축 : https://github.com/arahansa/golkorea/wiki/02.-Go%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95_Linux-%ED%8E%B8

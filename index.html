@@ -5,8 +5,8 @@ layout: default
   <section>
     {% for post in site.posts limit:1 %}
       <header>
-        <h1>{{ post.title }}</h1>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <h1>{{ post.Title }}</h1>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.Author %} • {{ post.Author }}{% endif %}{% if page.Meta %} • {{ page.Meta }}{% endif %}</p>
       </header>
       <section>
         {{ post.content }}
@@ -20,7 +20,7 @@ layout: default
       {% for post in site.posts offset:1 %}
         <article class="{% cycle '6u', '6u$' %} 12u(small)">
           <header>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ post.url }}">{{ post.Title }}</a></h2>
           </header>
           <section>
             {{ post.excerpt }}

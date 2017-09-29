@@ -1,0 +1,18 @@
+---
+layout: post
+Title: "오수"
+Author: bosco lyu
+Date:
+Meta: "Literature"
+---
+
+<img src="/images/fulls/2013-11-07-01.jpg" class="fit image">
+
+```
+벤치에 무릎을 베고 누워 하늘을 본다.
+따뜻한 기운이 얼굴을 휘감고 
+노란 불빛이 검은 속눈썹을 물들인다.
+서늘한 바람이 잠들지 말라고 나뭇잎들과 함께 빰을 스친다
+그냥 누워만 있어도 좋은 오수
+```
+

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:
-categories:
-date:
+Title: ""
+Author: bosco lyu
+Date:
+Meta: ""
 ---
