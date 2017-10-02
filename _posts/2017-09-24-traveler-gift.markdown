@@ -7,7 +7,7 @@ Meta: "Book"
 ---
 
 
-![cover](https://cdn-images-1.medium.com/proxy/1*ROQ_FT-HFx2P7nS3lppfAA.jpeg)
+<img src ="https://cdn-images-1.medium.com/proxy/1*ROQ_FT-HFx2P7nS3lppfAA.jpeg" width="100%">
 
 아내가 회사를 그만두기로 결정한 주말 토요일에 아들을 데리고 레고블록 놀이방에 갔다. 놀이방에서 아들은 열심히 레고를 조립하고 있었고, 따뜻한 햇살이 창문을 넘어 테이블을 비추고 있었다. 커피를 한 잔 주문하고 주위를 둘러보니 나름 레고를 조립하는 부모를 배려하려고 책장에 책이 꽤 많이 비치되어 있었다. 역시나 교육에 대한 책, 잡지, 소설들이 많은 부분을 차지했지만 눈의 띄는 몇 권의 책이 있었다. 그 중에 한 권이 `폰더씨의 위대한 하루`였다.
 
@@ -16,16 +16,16 @@ Meta: "Book"
 
 그 이후로 폰더씨는 2차 세계 대전에 일본에 원자 폭탄을 투여한 미국 대통령, 링컨 대통령,  솔로몬, ?,  안네 프랑크, 게티즈버그 전투에 참가했던 육군 대령, 가브리엘 대천사를 만나며 시대의 격변기를 살았던 사람들의 이야기를 듣는다. 그리고 7명으로부터 7가지 교훈을 받게 된다. 
 
-![7 rules](https://cdn-images-1.medium.com/proxy/1*_4xCz5-Bde7M-IQtN_K2IQ.jpeg)
+<img src ="https://cdn-images-1.medium.com/proxy/1*_4xCz5-Bde7M-IQtN_K2IQ.jpeg" width="100%">
+
 
 위의 7가지 교훈을 정리한 문장들을 그냥 읽으면 사실 별 감흥과 깨달음이 없다. 하지만 7명을 만나면서 나누는 대화와 감정들이 이 단순한 명언같은 지식을 깨달음으로 바꾸어준다. 
 
-![winner](https://cdn-images-1.medium.com/proxy/1*K0TTCqN-QgxBDCovhalr3g.jpeg)
-
+<img src ="https://cdn-images-1.medium.com/proxy/1*K0TTCqN-QgxBDCovhalr3g.jpeg" width="100%">
 
 책을 읽으면서 가장 위로가 되고 공감이 되었던 말을 가브리엘 대천사가 해주었다. `인생이라는 게임에서 하프 타임의 스코어는 정말 아무 것도 아닙니다. 인생의 비극은 인간이 그 게임에서 진다는 것이 아니라 거의 이길 뻔한 게임을 놓친다는 것입니다.`40대 중반이 되면 시간이 가장 아쉽다. 청년의 강인한 체력이 점점 줄어들고 있다는 것을 몸소 느끼고, 엄청 멀게만 느껴졌던 노년의 시간이 얼마 남지 않은 것처럼 느껴질 때, 조금이나마 체력과 에너지가 더 있을 때 뭔가 의미있는 일, 재미있는 일을 하고 싶다는 생각이 드는 것이다. 그래서 많은 사람들이 회사를 그만두고 스타트업에 합류하거나 창업을 하는 것인지도 모른다. 
 
-![half time](https://cdn-images-1.medium.com/proxy/1*jO7_s2HG8AXI2IW5WwQz5A.jpeg)
+<img src ="https://cdn-images-1.medium.com/proxy/1*jO7_s2HG8AXI2IW5WwQz5A.jpeg" width="100%">
 
 ## 책을 읽으면서 느낀 점
 
