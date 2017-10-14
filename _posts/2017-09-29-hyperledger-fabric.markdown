@@ -46,6 +46,51 @@ Meta: "IT"
 curl -sSL https://goo.gl/Gci9ZX | bash
 ```
 
+```
+git clone https://github.com/hyperledger/fabric-samples.git
+```
+
+```
+npm install
+```
+### run the first network
+
+* generate required certificates and genesis block
+
+```
+cd first-network
+./byfn.sh -m generate
+```
+
+### run the sample application
+
+```
+cd fabcar
+./startFabric.sh
+npm install
+```
+
+if you fail to npm install command, check the below document
+https://haandol.wordpress.com/2013/10/01/node-gyp-rebuild-%EC%97%90%EB%9F%AC/
+
+```
+npm WARN fabcar@1.0.0 No repository field.
+npm ERR! Linux 3.10.0-327.28.3.el7.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "install"
+npm ERR! node v6.11.4
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+
+npm ERR! pkcs11js@1.0.10 install: `node-gyp rebuild`
+npm ERR! Exit status 1
+
+```
+
+
+
+
+
+
 ## application
 * update, query
 ### SDK
