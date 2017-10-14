@@ -19,7 +19,7 @@ LRUCache는 (Least-Recently-Used Cache)의 약자이다. 최근에 가장 적게
 
 * HashMap에 item을 넣는 put 메소드
 
-```
+```java
 public V put(K key, V value) {
     if (key == null)
         return putForNullKey(value);
@@ -41,7 +41,7 @@ public V put(K key, V value) {
 }
 ```
   
-```
+```java
     void addEntry(int hash, K key, V value, int bucketIndex) {
         Entry e = table[bucketIndex];
         table[bucketIndex] = new Entry(hash, key, value, e);
@@ -54,7 +54,7 @@ public V put(K key, V value) {
     * HashMap을 상속받아서 구현한 클래스이다. 내부의 Entry 구현을 보면 기본적으로 Entry에서 before, after 변수를 가지고 있어서 Entry를 linked list 구조로 별도 연결을 하고 있다.
 
 
-```  
+```java
     void addEntry(int hash, K key, V value, int bucketIndex) {
         createEntry(hash, key, value, bucketIndex);
 
@@ -84,7 +84,7 @@ true로 설정하면 access할 때마 linkedlist의 맨 앞으로 이동시키�
 
 
    
-```
+```java
     public V get(Object key) {
         Entry e = (Entry)getEntry(key);
         if (e == null)
@@ -94,7 +94,7 @@ true로 설정하면 access할 때마 linkedlist의 맨 앞으로 이동시키�
     }
 ```
 
-```
+```java
         private void remove() {
             before.after = after;
             after.before = before;
@@ -122,7 +122,7 @@ LinkedHashMap 클래스는 removeEldestEntry 메소드를 가지고 있어서 �
 
  해당 메소드를 overriding해서 삭제 여부를 boolean 값으로 반환할 뿐임
 
-```  
+```java
     protected boolean removeEldestEntry(Map.Entry eldest) {
         return false;
     }

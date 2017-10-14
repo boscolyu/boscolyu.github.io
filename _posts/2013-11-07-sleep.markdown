@@ -2,7 +2,6 @@
 layout: post
 Title: "오수"
 Author: bosco lyu
-Date:
 Meta: "Literature"
 ---
 

@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Author details for the jekyll-seo-tag gem
 author:
   name: Bosco lyu
-  email: hite95@gmail.com
+  email: "hite95@gmail.com"
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
@@ -29,6 +29,7 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-sitemap"
+  - highlighter: rouge
 
 # Jekyll SEO Tag
 webmaster_verifications:
