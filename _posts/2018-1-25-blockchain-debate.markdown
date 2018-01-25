@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: "[블럭체인] JTBC의 븝럭체인 방송 시청 소감"
+Title: "[블럭체인] JTBC의 블럭체인 방송 시청 소감"
 Author: bosco lyu
 Date: January 25, 2018
 Meta: "IT"
