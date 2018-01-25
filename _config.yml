@@ -29,7 +29,7 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-sitemap"
-#  - highlighter: rouge
+  - highlighter: rouge
 
 # Jekyll SEO Tag
 webmaster_verifications:
