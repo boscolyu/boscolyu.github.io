@@ -1,0 +1,37 @@
+---
+layout: post
+Title: "[Docker] Docker"
+Author: bosco lyu
+Date: January 26, 2018
+Meta: "IT"
+---
+
+# Docker 란
+* 컨테이너 기반의 오픈소스 가상화 플랫폼
+* 잘 설명한 문서
+    * 내가 아래 문서보다 잘 설명할 수 없기 때문에 링크를 제공함
+    * 초보를 위한 도커 안내서 - 도커란 무엇인가? : https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
+    * 초보를 위한 도커 안내서 - 설치하고 컨테이너 실행하기 : https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html
+    * 초보를 위한 도커 안내서 - 이미지 만들고 배포하기 : https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html
+    * 도커 무작정 따라하기 : https://www.slideshare.net/pyrasis/docker-fordummies-44424016
+* 매뉴얼 : https://docs.docker.com/engine/userguide/
+* sample : https://docs.docker.com/get-started/part2/
+
+
+# 설치하기
+* 모든 문서는 매뉴얼을 참조하면 되지만 정리를 위해 아래 문서 작성함.
+* 리눅스에 설치하기
+* 맥에 설치하기
+
+# 명령어
+* docker
+* docker-compose
+    * definition
+        * Compose is a tool for defining and running multi-container Docker applications.
+        * configuration file format is yaml.
+        * configuration file reference (version 3)
+            * https://docs.docker.com/compose/compose-file/
+    * how to use
+        * command line interface
+        * 
+* docker-machine
