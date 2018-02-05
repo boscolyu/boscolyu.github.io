@@ -17,6 +17,8 @@ Meta: "IT"
 * 매뉴얼 : https://docs.docker.com/engine/userguide/
 * sample : https://docs.docker.com/get-started/part2/
 
+* 도커 네트워크 모델에 대해서 정리한 글 : http://ingeec.tistory.com/76
+
 
 # 설치하기
 * 모든 문서는 매뉴얼을 참조하면 되지만 정리를 위해 아래 문서 작성함.
@@ -35,3 +37,12 @@ Meta: "IT"
         * command line interface
         * 
 * docker-machine
+
+# docker-compose 란?
+
+
+## Kubernets
+* k8s (Kubernetes) : https://cloud.google.com/containers/?authuser=0&hl=ko
+* manual : https://cloud.google.com/kubernetes-engine/docs/?authuser=0&hl=ko
+* quick start : https://cloud.google.com/kubernetes-engine/docs/quickstart?authuser=0&hl=ko
+
