@@ -4,6 +4,7 @@ Title: "[Blockchain] Hyperledger peer "
 Author: bosco lyu
 Date: February 1, 2018
 Meta: "IT, GO"
+published: false
 ---
 
 # peer 

@@ -4,6 +4,7 @@ Title: "[GO] golang"
 Author: bosco lyu
 Date: January 26, 2018
 Meta: "IT, GO"
+published: false
 ---
 
 # language
