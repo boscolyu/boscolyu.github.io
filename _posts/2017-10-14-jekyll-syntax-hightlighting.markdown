@@ -27,7 +27,8 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-sitemap"
-  - highlighter: rouge
+
+highlighter: rouge
 ```
 
 # syntax highlighting css 파일 다운로드 받아서 복사하기
