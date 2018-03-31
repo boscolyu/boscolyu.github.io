@@ -4,6 +4,7 @@ Title: "[Math] 확률 "
 Author: bosco lyu
 Date: February 7, 2018
 Meta: "IT, Math"
+published: false
 ---
 
 # Term

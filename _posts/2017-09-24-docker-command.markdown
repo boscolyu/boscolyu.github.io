@@ -4,6 +4,7 @@ Title: "docker command"
 Author: bosco lyu
 Date:   September 24, 2017
 Meta: "IT"
+published: false
 ---
 <img src="/images/fulls/02.jpg" class="fit image">
 ## docker 프로세스 확인하기
