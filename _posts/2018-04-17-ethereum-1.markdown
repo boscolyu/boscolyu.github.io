@@ -1,0 +1,57 @@
+---
+layout: post
+Title: "ethereum Q & A"
+Author: bosco lyu
+Meta: ""
+published: false
+---
+
+
+### Whisper
+* whisper의 기능은?
+
+### BlockChain을 만들 때 cache config는 null로 넘어올 수 있다 왜 그런가? (기본값 설정)
+* trie node limit, trie Time Limit의 의미는?
+
+### Header Chain의 의미는?
+* block과 다르게 header만 별도로 관리하는 type이 있음. 이유는? 
+
+### Bad hashes
+* core/blocks.go 의 BadHashes를 설정한 이유는?
+```
+// BadHashes represent a set of manually tracked bad hashes (usually hard forks)
+var BadHashes = map[common.Hash]bool{
+	common.HexToHash("05bef30ef572270f654746da22639a7a0c97dd97a7050b9e252391996aaeb689"): true,
+	common.HexToHash("7d05d08cbc596a2e5e4f13b80a743e53e09221b5323c3a61946b20873e58583f"): true,
+}
+```
+* 2번의 fork를 무시하고 동기화하지 않기 위함임.  정말(?)
+    *  이더리움 vs 이더리움 클래식 : https://steemit.com/coinkorea/@phuzion7/eth-vs-etc
+
+### CurrentFastBlock()
+* Fast Sync를 실행할 때 사용하는 듯.
+
+### core/blockchain.go - InsertReceiptChain
+* 메소드의 구현 이유는?
+* 블록의 관계를 검사하는 이유는?
+    * 받은 블록이 1개 이상으로 연결된 블록체인일 수 있기 때문이다.
+* TD 계산해서 업데이트하는 로직은 있음.
+* TD가 작을 때는 써서는 안될 것 같은데?
+* 왜 CurrentFastBlock에만 업데이트?
+* bc.hasHeader가 없으면 에러를?
+* WriteReceipts에서 그냥 byte 변환 db.put 하는 듯.
+
+### fetch 결과에 receipts가 따로 있는 이유는?
+
+
+### Worker의 역할은?
+* 모든 작업을 다하는 핵심 클래스?
+* commitNewWork가 불려서 실행되는 시점이 이상함 ? (update는 PoW 모드에서는 동작하지 않음)
+
+### Feed에 inbox는 왜 만들어 둔 것일까?
+
+* 초기화 코드 확인 필요함.
+
+### DAOForkBlock <-- 이건 뭘까요?
+
+### What is StateDB.thash StateDB.bhash?

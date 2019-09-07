@@ -185,7 +185,8 @@ Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
 
 ## MyBatis vs JPA vs Hibernate
 * google trend에서 찾아보면 한국에서만 MyBatis를 선호하고 있음을 알 수 있음.
-<img src="../images/fulls/2017-10-13-01.png" width="100%">
+
+<img src="/images/fulls/2017-10-13-01.png" width="100%">
 
 
 ## reference
