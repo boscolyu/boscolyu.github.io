@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: "[GO] golang"
+Title: "[GO] golang reference"
 Author: bosco lyu
 Date: January 26, 2018
 Meta: "IT, GO"
@@ -23,3 +23,5 @@ published: false
 ```
 xcode-select --install
 ```
+
+

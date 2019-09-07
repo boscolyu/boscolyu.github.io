@@ -6,6 +6,9 @@ Date: January 26, 2018
 Meta: "IT"
 ---
 
+<img src="/images/fulls/docker.png" class="fit image">
+
+
 # Docker 란
 * 컨테이너 기반의 오픈소스 가상화 플랫폼
 * 잘 설명한 문서

@@ -6,6 +6,7 @@ Date: January 26, 2018
 Meta: "IT"
 ---
 
+<img src="/images/fulls/docker.png" class="fit image">
 
 # Requirement
 * os : To install Docker CE, you need a maintained version of CentOS 7

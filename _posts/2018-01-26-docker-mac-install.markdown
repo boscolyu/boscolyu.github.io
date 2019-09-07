@@ -6,6 +6,7 @@ Date: January 26, 2018
 Meta: "IT"
 ---
 
+<img src="/images/fulls/docker.png" class="fit image">
 
 ## 개요
 * docker는 리눅스 컨테이너임. 그래서 docker for mac의 경우에는 VM 기반위에서 동작함.

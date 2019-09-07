@@ -1,0 +1,195 @@
+---
+layout: post
+Title: "[swift] swift 1"
+Author: bosco lyu
+Meta: "Apple, IT"
+published: false
+---
+
+# 목차
+## Introduction
+* c, c++처럼 header 파일을 작성할 필요가 없다.
+    * Java 및 다른 언어는 이미 예전에 되었음.
+* 대소문자를 구분함.
+```swift
+var A = 30
+var a = 30
+```
+
+* 실행
+    * 반드시 xcode를 쓰지 않아도 된다.
+```
+localhosts$ swift --help
+OVERVIEW: Swift compiler
+
+USAGE: swift [options] <inputs>
+...
+```
+### code convention
+* function, method, instance 는 첫글자를 소문자로
+* class, structure, protocol은 첫글자를 대문자로
+* 구문끝의 세미콜론은 옵션입니다.
+* string, character 모두 큰따옴표를 사용함.
+
+### main함수가 없음
+* @UIApplicationMain으로 표시된 부분이 시작 포인트임.
+* 하나의 앱에서 해당 annotation은 한 개만 존재할 수 있음.
+
+# keyword
+* import : framework나 외부 library를 사용하기 위한 목적으로만 사용됨. 
+```swift
+import UIKit
+```
+* comment
+```swift
+// 한줄 주석
+/*
+ * 여러줄 주석 모두 지원
+ */
+
+ /*
+  * 주석 
+   /*
+    * 중첩 주석도 알아서 잘 인식함.
+    */
+ */
+```
+* try ... catch도 지원함.
+    * 초창기에는 지원하지 않았지만 swift2부터 지원함.
+
+# Variable, Constant
+* 변수는 var 상수는 let으로 선언함.
+
+```swift
+let testConstant
+testConstant = 6
+```
+```
+Playground execution failed:
+
+error: MyPlayground.playground:8:1: error: found an unexpected second identifier in constant declaration; is there an accidental break?
+testConstant = 6
+^
+```
+* 변수 type 확인
+```swift
+// type(of: __ ) 로 작성해야 함.
+print(type(of: testConstant))
+```
+
+* 영어 숫자, 언더바로 변수명 작성 가능함.
+* 한글, 한글 조성, 중성으로 작성 가능함.
+* 한글 초성과 알파벳을 혼용하여 정의 가능함.
+* 특수 기호, 이미지 바이너리, 한자등도 정의 가능함.
+* 모두 섞어서 사용 가능함.
+* 연산자와 혼동할 수 있는 +, - , *, / 및 공백은 변수, 상수명에 사용할 수 없음.
+* 예약어 키워드는 사용할 수 없음.
+* 변수명 상수명의 첫 번째 자리에 숫자가 올 수 없음.
+* 문자 + 숫자 조합은 type cast 에러가 발생함.
+* 정수 + 실수는 실수로 처리함.
+# 자료형
+* int 
+    * Int8, Int16, Int32, Int64가 모두 존재함.
+    * Int는 실행 환경에 따라서 가변적임. Int8, 16, 32, 64는 실행환경과 무관하게 동일함.
+    * Uint, Uint8, Uint16, Uint32, Uint64 모두 존재함.
+* Double, Float
+    * Float32, Float64가 존재함.
+    * Float64는 Double로 처리함.
+* Bool
+    * true, false값을 가짐
+* String
+    * 문자열 클래스임 큰따옴표로 처리함.
+    * NSString은 import Foundation을 이용해야 했지만, swift는 내장 자료형임.
+* Character
+    * 한글자
+# 타입 추론 Safety by design
+* 선언과 동시에 초기화하면 초기값을 이용해서 컴파일러가 타입을 결정함.
+* 반대로 분리하면 타입을 입력해주어야 함.
+* 변수나 상수에 큰따옴표로 한글자만 입력해도 String으로 인식함.
+* String(), Int()를 이용해서 형변환을 할 수 있음.
+* 문자열 템플릿
+    * \()를 이용해서 문자열 사이의 값을 변수로 대체할 수 있음
+```swift
+let profile = "이름은 \(name)입니다."
+print(profile)
+```
+# define
+* #available
+    * OS 버전을 나타내는 구문
+```swift
+if #available(iOS 9, OSX 10.10, watchOS1, *) {
+
+} else {
+
+}
+```
+
+# 연산자
+## 산술 연산자
+* 단항 연산자
+* 이항 연산자
+## 비교 연산자
+## 논리 연산자
+## 범위 연산자
+* 숫자 범위를 지정
+```swift
+1 ... 5
+```
+## 대입 연산자
+## 증감 연산자
+
+
+# Statement
+## 조건문
+* if 
+    * 대괄호는 옵션임.
+    * 비교식에 C처럼 1과 0의 값으로 조건문 처리할 수 없음
+```swift
+var zero = 0
+if 1 > zero {
+    print("success")
+}
+```
+* guard
+    * swift에만 있는 듯한 문법
+    * 값을 걸러낼 때 유용함.
+```swift
+        guard base < 100 else {
+            print("n is over 100")
+            return
+        }
+```
+* switch 
+    * break 문이 없음.
+    * 비교 대상에 하나이상의 값을 입력할 수 있음
+    * fall through : 그 다음 case 블록을 호출하는 것.
+    * 튜플도 비교 대상으로 넣을 수 있다.
+    * 비교 대상에 변수를 입력하면 패턴처럼 일부가 맞는 경우를 처리할 수 있다.
+
+## 제어 전달문
+* break
+* continue
+* fallthrough
+* return
+## 반복문
+* for
+    * 
+```swift
+for ~ in ~ {}
+// for (초기값; 조건식; 증감값) {} 문법은 3.0 이후로는 지원하지 않음
+```
+
+* while
+```swift
+var n = 2
+while n < 100 {
+    print(n)
+}
+```
+* repeat ~ while
+    * v2.0 부터 do ~ while 에서 변경함
+# Function
+
+# Class
+
+# 
